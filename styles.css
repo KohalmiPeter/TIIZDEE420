@@ -11,16 +11,13 @@ nav a:hover{
 }
 
 .itt{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     background-color: rgb(128, 128, 128);
     border-radius: 3px;
     font-weight: bold;
 }
 
 
-<<<<<<< HEAD
-  
-=======
 .footer{
     background-color:dimgrey;
     float:none;
@@ -124,4 +121,4 @@ nav a:hover{
       width: 100%;
   }
   }
->>>>>>> 3ec399574b23445451e36fc8afc355fcb6e42a73
+  
