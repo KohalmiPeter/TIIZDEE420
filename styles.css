@@ -27,6 +27,8 @@ nav a:hover{
   body{
       line-height: 1.5;
       font-family: 'Poppins', sans-serif;
+      background-color: #5e6f80;
+      color: white
   }
   *{
       margin:0;
@@ -81,7 +83,7 @@ nav a:hover{
   }
   .footer-col ul li a{
       font-size: 16px;
-      text-transform: capitalize;
+
       color: #ffffff;
       text-decoration: none;
       font-weight: 300;
@@ -122,3 +124,70 @@ nav a:hover{
   }
   }
   
+
+
+/*főoldal*/
+
+.lebeg .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+}
+
+.lebeg .img-bottom{
+    position: relative;
+    display: block;
+}
+
+.lebeg:hover .img-top{
+    display: inline;
+}
+
+.közép{
+    display:grid
+}
+
+.közép img{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    border: #000000 solid 2px;
+}
+
+.txac{
+    text-align: center;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    margin: 7px;
+
+}
+
+#logo2{
+    background-color: yellowgreen;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    position: absolute;
+    float: left;
+    border: #000000 solid 2px;
+}
+
+#cim{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+#nev{
+    color:yellowgreen;
+    font-weight: bolder;
+    font-size: 100px;
+}
