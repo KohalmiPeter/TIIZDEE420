@@ -224,3 +224,22 @@ ul {
 .közép a:hover {
     text-decoration: none;
 }
+
+.főni h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.főni{
+    margin-top: 15px;
+}
+
+.rolsz p{
+    font-size: 24px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.rolsz{
+    margin:10px;
+}
