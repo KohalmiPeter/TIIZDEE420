@@ -1,129 +1,143 @@
-nav a{
-    color:white;
+nav a {
+    color: white;
 
 }
 
-nav a:hover{
-    color:rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+nav a:hover {
+    color: rgb(0, 0, 0);
+    background-color: yellowgreen;
     border-radius: 3px;
     font-weight: bold;
 }
 
-.itt{
-    color:rgb(255, 255, 255);
-    background-color: rgb(128, 128, 128);
+.itt {
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 112, 27);
     border-radius: 3px;
     font-weight: bold;
 }
 
 
-.footer{
-    background-color:dimgrey;
-    float:none;
-  
-  }
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-  body{
-      line-height: 1.5;
-      font-family: 'Poppins', sans-serif;
-      background-color: #5e6f80;
-      color: white
-  }
-  *{
-      margin:0;
-      padding:0;
-      box-sizing: border-box;
-  }
-  .container{
-      max-width: 1170px;
-      margin:auto;
-  }
-  .row{
-      display: flex;
-      flex-wrap: wrap;
-  }
-  ul{
-      list-style: none;
-  }
-  .footer{
-      background-color: #1e1f20;
-      padding: 70px 0;
-      margin-top:860px;
-  }
-  .footer2{
-      background-color: #1e1f20;
-      padding: 70px 0;
-      margin-top:230px;
-  }
-  .footer-col{
-     width: 25%;
-     padding: 0 15px;
-  }
-  .footer-col h4{
-      font-size: 18px;
-      color: #ffffff;
-      text-transform: capitalize;
-      margin-bottom: 35px;
-      font-weight: 500;
-      position: relative;
-  }
-  .footer-col h4::before{
-      content: '';
-      position: absolute;
-      left:0;
-      bottom: -10px;
-      background-color: 360000;
-      height: 2px;
-      box-sizing: border-box;
-      width: 50px;
-  }
-  .footer-col ul li:not(:last-child){
-      margin-bottom: 10px;
-  }
-  .footer-col ul li a{
-      font-size: 16px;
+.footer {
+    background-color: dimgrey;
+    float: none;
 
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: 300;
-      color: #bbbbbb;
-      display: block;
-      transition: all 0.3s ease;
-  }
-  .footer-col ul li a:hover{
-      color: #ffffff;
-      padding-left: 8px;
-  }
-  .footer-col .social-links a{
-      display: inline-block;
-      height: 40px;
-      width: 40px;
-      margin:0 10px 10px 0;
-      text-align: center;
-      line-height: 40px;
-      border-radius: 20%;
-      color: #ffffff;
-      transition: all 0.5s ease;
-  }
-  .footer-col .social-links a:hover{
-      color: #000000;
-      background-color: #ffffff;
-  }
-  
-  /*responsive*/
-  @media(max-width: 767px){
-    .footer-col{
-      width: 50%;
-      margin-bottom: 30px;
-  }
-  }
-  @media(max-width: 574px){
-    .footer-col{
-      width: 100%;
-  }
-  }
-  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background-color: #5e6f80;
+    color: white
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer2 {
+    background-color: #343a40;
+    padding: 70px 0;
+    margin-top: 230px;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: 360000;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: yellowgreen;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20%;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    background-color: yellowgreen;
+}
+
+.icon {
+    width: 40px;
+    height: auto;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
 
 
 /*főoldal*/
@@ -134,23 +148,25 @@ nav a:hover{
     top: 0;
     right: 0;
     left: 0;
-    
+
+
 }
 
-.lebeg .img-bottom{
+.lebeg .img-bottom {
     position: relative;
     display: block;
 }
 
-.lebeg:hover .img-top{
+.lebeg:hover .img-top {
     display: inline;
+
 }
 
-.közép{
-    display:grid
+.közép {
+    display: grid
 }
 
-.közép img{
+.közép img {
     display: block;
     margin: auto;
     width: 400px;
@@ -159,18 +175,18 @@ nav a:hover{
     border: #000000 solid 2px;
 }
 
-.txac{
+.txac {
     text-align: center;
 }
 
-#logo{
+#logo {
     width: 100px;
     height: auto;
     margin: 7px;
 
 }
 
-#logo2{
+#logo2 {
     background-color: yellowgreen;
     width: 150px;
     height: 150px;
@@ -180,14 +196,31 @@ nav a:hover{
     border: #000000 solid 2px;
 }
 
-#cim{
+#cim {
     font-size: 50px;
     font-weight: bold;
 
 }
 
-#nev{
-    color:yellowgreen;
+#nev {
+    color: yellowgreen;
     font-weight: bolder;
     font-size: 100px;
+}
+
+.pic-link {
+    color: yellowgreen;
+    margin-top: 6px;
+    font-size: 40px;
+
+
+}
+
+.közép a:hover .pic-link {
+    font-weight: bolder;
+}
+
+
+.közép a:hover {
+    text-decoration: none;
 }
