@@ -243,3 +243,18 @@ ul {
 .rolsz{
     margin:10px;
 }
+
+.mobilpic{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.txjf{
+    text-align: justify;
+}
+.mobiras{
+    font-size: 25px;
+    margin-bottom: 20px;   
+}
