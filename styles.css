@@ -256,7 +256,13 @@ ul {
 }
 .mobiras{
     font-size: 25px;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;  
+    color: yellowgreen; 
+
+}
+
+.mobiliras2 a:hover{
+    text-decoration: none;
 }
 
 
@@ -268,6 +274,7 @@ ul {
     padding-bottom: 20px;
     color: white;
     font-weight: bold;
+    border-radius: 15px;
 }
 
 .mobillista{
@@ -281,4 +288,9 @@ ul {
 }
 .sams{
     font-size: large;
+}
+
+.txar{
+    text-align: right;
+    margin: 15px;
 }
